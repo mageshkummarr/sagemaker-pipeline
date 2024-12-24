@@ -101,11 +101,10 @@ Resources:
           phases:
             install:
               commands:
-                - echo "Installing wget and boto3"
-		- python3 -m pip install --upgrade pip
-                - python3 -m pip install wget boto3
+               	- echo "Installing wget and boto3"
+                - pip3 install wget
                 - pip3 install boto3
-		- printenv
+                - printenv
             build:
               commands:
                 - echo "Running training.py"
