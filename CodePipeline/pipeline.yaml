@@ -102,6 +102,7 @@ Resources:
             install:
               commands:
                	- echo "Installing wget and boto3"
+                - echo "Hiiiiiiiiiiiiiiiiiiii"
                 - pip install wget
                 - pip3 install wget
                 - pip3 install boto3
@@ -109,7 +110,6 @@ Resources:
                 - pip3 show wget 
                 - python3 -m pip list | grep wget 
                 - python3 -c "import wget"
-                - echo "Hiiiiiiiiiiiiiiiiiiii"
                 - printenv
             build:
               commands:
