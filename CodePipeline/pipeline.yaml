@@ -94,7 +94,7 @@ Resources:
       Environment:
         Type: LINUX_CONTAINER
         ComputeType: BUILD_GENERAL1_SMALL
-        Image: public.ecr.aws/codebuild/standard:6.0
+        Image: public.ecr.aws/sam/build-python3.7
       Source:
         Type: CODEPIPELINE
       TimeoutInMinutes: 30
