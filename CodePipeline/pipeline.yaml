@@ -109,6 +109,7 @@ Resources:
                 - pip3 show wget 
                 - python3 -m pip list | grep wget 
                 - python3 -c "import wget"
+                - echo "Hiiiiiiiiiiiiiiiiiiii"
                 - printenv
             build:
               commands:
