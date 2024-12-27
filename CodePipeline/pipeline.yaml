@@ -104,6 +104,7 @@ Resources:
           install:
             commands:
               - pip3 install boto3 wget
+              - pip install boto3 wget
           build:
             commands:
               - python3 Source/training.py "${SagemakerRole.Arn}" "${DataBucket}" "${AWS::StackName}" $CODEBUILD_RESOLVED_SOURCE_VERSION
