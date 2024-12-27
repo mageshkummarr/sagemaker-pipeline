@@ -1,6 +1,7 @@
 import boto3
 import re
 import os
+import wget
 import time
 from time import gmtime, strftime
 import sys
