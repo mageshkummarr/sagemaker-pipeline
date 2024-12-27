@@ -139,9 +139,7 @@ Resources:
             install:
               commands:
                 - echo "Installing wget and boto3"
-                - pip install --upgrade pip
-                - pip3 install wget
-                - pip install wget
+                - python3 -m pip install wget
                 - pip3 install boto3
                 - pip3 install numpy
             build:
