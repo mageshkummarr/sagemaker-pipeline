@@ -104,6 +104,9 @@ Resources:
                 - echo "Installing wget and boto3"
                 - pip3 install wget
                 - pip3 install boto3
+		- apt-get update
+                - apt-get install -y wget
+		- yum install -y wget
 		- printenv
             build:
               commands:
