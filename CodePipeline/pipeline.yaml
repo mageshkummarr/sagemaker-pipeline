@@ -139,6 +139,7 @@ Resources:
             install:
               commands:
                 - echo "Installing wget and boto3"
+                - pip install --upgrade pip
                 - pip3 install wget
                 - pip install wget
                 - pip3 install boto3
